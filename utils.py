@@ -15,7 +15,7 @@ def chat(sock, msg):
     """
     cur_msg = "PRIVMSG #{} :{}".format(cfg.CHAN, msg).encode("utf-8")
     sock.send(cur_msg + "\r\n".encode("utf-8"))
-if cfg.CHAN == "mirage1g":
+if cfg.CHAN == "xxxxxxx":
     def ban(sock, user):
         """
         Ban a user from the current channel.
