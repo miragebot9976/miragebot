@@ -48,7 +48,7 @@ def handleMessage(srvResponse):
             print(user + ": " + message)
         x = message.split(" ")
         if cur_time == None or (time.time() - cur_time > cfg.CD_short):
-            if cfg.CHAN == "moonmoon_ow" or cfg.CHAN =="mirage1g": 
+            if cfg.CHAN == "xxxxxxxxxxxxx" or cfg.CHAN =="xxxxxxxxxxxxxx": 
                 if "peepoPooPoo" in x and user != "nightbot":
                     poop_choice = random.choice(utils.poop_response)
                     if poop_choice == utils.poop_response[2]:
@@ -121,17 +121,6 @@ def handleMessage(srvResponse):
         else:
             print(time.time() - cur_time)
             print("The bot is on cooldown, did not chat")
-        '''if message[:len(":comet: moon2DEV" )] == ':comet: moon2DEV ' or  message[:len("☄️ moon2DEV " )] == '☄️ moon2DEV ':
-            if cur_time == None or (time.time() - cur_time > cfg.CD_long):
-                if(cur_time != None):
-                    print(time.time() - cur_time)
-                cur_time = time.time()
-                chat(s,"moon2D")
-            else:
-                print("current time is {}".format(time.time()))
-                print(time.time() - cur_time)
-                print("did not chat")
-                 '''
                  
 while True:
     try:

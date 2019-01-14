@@ -14,7 +14,7 @@ if(offline == True):
 else:
     CD_mid = 40
     CD_short = 20
-if(CHAN == "mirage1g"):
+if(CHAN == "xxxxxxx"):
     CD_short = 5
     CD_mid = 5
 
