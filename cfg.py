@@ -6,7 +6,7 @@ PASS = "xxxxxxxxxxxxxxxx"
 CHAN = "xxxxxxxxxxxxxxxx"
 RATE = (20/30)
 offline = True
-no_stream = False
+no_stream = True
 game = "DD"
 if(offline == True):
     CD_mid = 20
