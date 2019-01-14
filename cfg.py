@@ -4,7 +4,6 @@ PORT = 6667
 NICK = "mirage_Bot"
 PASS = "xxxxxxxxxxxxxxxx"
 CHAN = "xxxxxxxxxxxxxxxx"
-RATE = (20/30)
 offline = True
 no_stream = True
 game = "DD"
