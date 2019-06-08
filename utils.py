@@ -20,10 +20,10 @@ def join_chan(sock,server,port,PASS,NICK,CHAN):
     sock.send("PASS {}\r\n".format(PASS).encode("utf-8"))
     sock.send("NICK {}\r\n".format(NICK).encode("utf-8"))
     sock.send("JOIN #{}\r\n".format(CHAN).encode("utf-8"))
-    if bot.mod_status == True:
-        sock.send("CAP REQ :twitch.tv/membership\r\n".encode("utf-8"))
-        sock.send("CAP REQ :twitch.tv/commands\r\n".encode("utf-8"))
-        #sock.send("CAP REQ :twitch.tv/tags\r\n".encode("utf-8"))
+    # if bot.mod_status == True:
+    #     sock.send("CAP REQ :twitch.tv/membership\r\n".encode("utf-8"))
+    #     sock.send("CAP REQ :twitch.tv/commands\r\n".encode("utf-8"))
+    #     #sock.send("CAP REQ :twitch.tv/tags\r\n".encode("utf-8"))
     print("Successfully joined {}'s chatroom".format(CHAN))
 #def pubsub_connect(sock,pubsub,)
 if cfg.CHAN == "egarim_a":
